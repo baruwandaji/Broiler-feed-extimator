@@ -15,7 +15,7 @@ Body_weight_g=st.number_input(
     'Input Average weight of chicken or flock in (g)',
     min_value=79, max_value=2500, step=1)
 #predict quantity of feed intake
-if st.button('predict feed quantity(g)'):
+if st.button('predict feed quantity per bird(g)'):
     #input data
     input_data=pd.DataFrame({
         'Age in days':[Age_in_days],
